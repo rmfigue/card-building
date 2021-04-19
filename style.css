@@ -1,0 +1,59 @@
+img {
+    width: 90%;
+    border-radius: 12px;
+    height: 214px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+     background-color: #EAEFF1;
+     font-family: "Raleway";
+}
+#container {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+.card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #BACDD8;
+}
+.tag {
+    padding: 4px 8px;
+    border: 1px solid #E5EAED;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #788697;
+}
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+p {
+    font-size: 14px;
+    color: #7F8C9B;
+    line-height: 150%;
+}
+button {
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: #0077FF;
+    background-color: #E0EFFF;
+    margin: 0 auto;
+    display: block;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+button:focus, button:hover {
+    background-color: #0077FF;
+    color: #E0EFFF;
+}
+.card__details {
+    padding: 16px 8px 8px 8px;
+}
